@@ -44,7 +44,7 @@ if __name__ == '__main__':
   
   # # Tonemap using Drago's method to obtain 24-bit color image
   print("Tonemaping using Drago's method ... ")
-  tonemapDrago = cv2.createTonemapDrago(1.0, 0.7)
+  tonemapDrago = cv2.createTonemapDrago(1, 0.7,0.85)
   ldrDrago = tonemapDrago.process(hdrDebevec)
   ldrDrago = 3 * ldrDrago
   cv2.imwrite("ldr-Drago.jpg", ldrDrago * 255)

@@ -44,7 +44,7 @@ if __name__ == '__main__':
   
   # # Tonemap using Reinhard's method to obtain 24-bit color image
   print("Tonemaping using Reinhard's method ... ")
-  tonemapReinhard = cv2.createTonemapReinhard(1.5, 0,0,0)
+  tonemapReinhard = cv2.createTonemapReinhard(1.5, 0,1,0)
   ldrReinhard = tonemapReinhard.process(hdrDebevec)
   cv2.imwrite("ldr-Reinhard.jpg", ldrReinhard * 255)
   print("saved ldr-Reinhard.jpg")
