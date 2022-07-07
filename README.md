@@ -27,11 +27,13 @@ High-dynamic-range tone mapping with a diferents algorithms
  
  <table>
   <tr>
+    <td>Debevec's method</td>
     <td>Drago's method</td>
     <td>Mantiuk's method</td>
     <td>Reinhard's method</td>
   </tr>
   <tr>
+    <td><img src="ldr-Debevec.jpg"></td>
     <td><img src="ldr-Drago.jpg"></td>
     <td><img src="ldr-Mantiuk.jpg"></td>
     <td><img src="ldr-Reinhard.jpg"></td>
