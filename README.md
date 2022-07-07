@@ -38,6 +38,11 @@ High-dynamic-range tone mapping with a diferents algorithms
     <td><img src="ldr-Mantiuk.jpg"></td>
     <td><img src="ldr-Reinhard.jpg"></td>
   </tr>
+    <td>gama=2</td>
+    <td>gama=1, saturation=0.7, bias=0.85</td>
+    <td>gama=2.2, scale=0.85, saturation=1.2</td>
+    <td>gama=1.5, intensity=0, light_adapt=1, color_adapt=0</td>
+  </tr>
  </table>
  
 
