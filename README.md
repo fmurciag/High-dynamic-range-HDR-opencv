@@ -6,12 +6,12 @@ High-dynamic-range tone mapping with a diferents algorithms
 ### Imputs
 <table>
   <tr>
-    <td>ISO: 1/4s</td>
-    <td>ISO: 1/8s</td>
-    <td>ISO: 1/15s</td>
-    <td>ISO: 1/60s</td>
-    <td>ISO: 1/120s</td>
-    <td>ISO: 1/1000s</td>
+    <td>Camera exposure: 1/4s</td>
+    <td>Camera exposure: 1/8s</td>
+    <td>Camera exposure: 1/15s</td>
+    <td>Camera exposure: 1/60s</td>
+    <td>Camera exposure: 1/120s</td>
+    <td>Camera exposure: 1/1000s</td>
   </tr>
   <tr>
     <td><img src="img-1.jpeg"></td>
