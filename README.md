@@ -45,7 +45,7 @@ High-dynamic-range tone mapping with a diferents algorithms
   </tr>
  </table>
  
-# Result
+# Result in real life
 
 ### Imputs
 <table>
@@ -57,13 +57,13 @@ High-dynamic-range tone mapping with a diferents algorithms
   </tr>
   <tr>
     <td><img src="a0.jpg"></td>
-    <td><img src="a1.jpeg"></td>
-    <td><img src="a2.jpeg"></td>
+    <td><img src="a1.jpg"></td>
+    <td><img src="a2.jpg"></td>
   </tr>
    <tr>
-    <td><img src="b0.jpeg"></td>
-    <td><img src="b1.jpeg"></td>
-    <td><img src="b2.jpeg"></td>
+    <td><img src="b0.jpg"></td>
+    <td><img src="b1.jpg"></td>
+    <td><img src="b2.jpg"></td>
   </tr>
  </table>
  
@@ -75,15 +75,14 @@ High-dynamic-range tone mapping with a diferents algorithms
     <td>Drago's method</td>
   </tr>
   <tr>
-    <td><img src="hdr-DebevecA.jpg"></td>
-    <td><img src="hdr-DragoA.jpg"></td>>
+    <td><img src="ldr-DebevecA.jpg"></td>
+    <td><img src="ldr-DragoA.jpg"></td>>
   </tr>
    <tr>
-    <td><img src="hdr-DebevecB.jpg"></td>
-    <td><img src="hdr-DragoB.jpg"></td>>
+    <td><img src="ldr-DebevecB.jpg"></td>
+    <td><img src="ldr-DragoB.jpg"></td>>
   </tr>
-    <td>gama=2</td>
-    <td>gama=1, saturation=0.7, bias=0.85</td>
-    <td>gama=2.2, scale=0.85, saturation=1.2</td>
+    <td>gama=4.5</td>
+    <td>gama=2, saturation=0.7, bias=0.85</td>
   </tr>
  </table>
