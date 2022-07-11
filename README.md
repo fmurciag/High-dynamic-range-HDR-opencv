@@ -45,4 +45,45 @@ High-dynamic-range tone mapping with a diferents algorithms
   </tr>
  </table>
  
+# Result
 
+### Imputs
+<table>
+  <tr>
+    <td>Exposure: 1/1000s</td>
+    <td>Exposure: 1/30s</td>
+    <td>Exposure: 1/8s</td>
+
+  </tr>
+  <tr>
+    <td><img src="a0.jpg"></td>
+    <td><img src="a1.jpeg"></td>
+    <td><img src="a2.jpeg"></td>
+  </tr>
+   <tr>
+    <td><img src="b0.jpeg"></td>
+    <td><img src="b1.jpeg"></td>
+    <td><img src="b2.jpeg"></td>
+  </tr>
+ </table>
+ 
+ ### Results
+ 
+ <table>
+  <tr>
+    <td>Debevec's method</td>
+    <td>Drago's method</td>
+  </tr>
+  <tr>
+    <td><img src="hdr-DebevecA.jpg"></td>
+    <td><img src="hdr-DragoA.jpg"></td>>
+  </tr>
+   <tr>
+    <td><img src="hdr-DebevecB.jpg"></td>
+    <td><img src="hdr-DragoB.jpg"></td>>
+  </tr>
+    <td>gama=2</td>
+    <td>gama=1, saturation=0.7, bias=0.85</td>
+    <td>gama=2.2, scale=0.85, saturation=1.2</td>
+  </tr>
+ </table>
