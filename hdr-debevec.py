@@ -6,9 +6,9 @@ import numpy as np
 
 def readImagesAndTimes():
   
-  times = np.array([ 1/1000,1/120,1/60,1/15,1/8,1/4], dtype=np.float32)
+  times = np.array([ 1/1000,1/30, 1/8], dtype=np.float32)
   
-  imgNames = ["img-6.jpeg", "img-5.jpeg", "img-4.jpeg","img-3.jpeg","img-2.jpeg","img-1.jpeg"]
+  imgNames = ['a0.jpg', 'a1.jpg', 'a2.jpg']
 
   images = []
   for filename in imgNames:
@@ -45,7 +45,7 @@ if __name__ == '__main__':
 
   # # Tonemap using Drago's method to obtain 24-bit color image
   print("Tonemaping using Debevec ... ")
-  tonemap1 = cv2.createTonemap(3.0)
+  tonemap1 = cv2.createTonemap(4.5)
   ldrDebevec = tonemap1.process(hdrDebevec)
   ldrDebevec = 3 * ldrDebevec
   cv2.imwrite("ldr-Debevec.jpg", ldrDebevec * 255)

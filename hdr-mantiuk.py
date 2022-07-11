@@ -6,9 +6,10 @@ import numpy as np
 
 def readImagesAndTimes():
   
-  times = np.array([ 1/1000,1/120,1/60,1/15,1/8,1/4], dtype=np.float32)
+  times = np.array([ 1/1000,1/30, 1/8], dtype=np.float32)
   
-  imgNames = ["img-6.jpeg", "img-5.jpeg", "img-4.jpeg","img-3.jpeg","img-2.jpeg","img-1.jpeg"]
+  imgNames = ['a0.jpg', 'a1.jpg', 'a2.jpg']
+
 
   images = []
   for filename in imgNames:
@@ -44,7 +45,7 @@ if __name__ == '__main__':
   
   # # Tonemap using Mantiuk's method to obtain 24-bit color image
   print("Tonemaping using Mantiuk's method ... ")
-  tonemapMantiuk = cv2.createTonemapMantiuk(2.2,0.85, 1.2)
+  tonemapMantiuk = cv2.createTonemapMantiuk(3.2,0.85, 1.2)
   ldrMantiuk = tonemapMantiuk.process(hdrDebevec)
   ldrMantiuk = 3 * ldrMantiuk
   cv2.imwrite("ldr-Mantiuk.jpg", ldrMantiuk * 255)
