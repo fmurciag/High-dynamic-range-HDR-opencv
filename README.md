@@ -65,6 +65,11 @@ High-dynamic-range tone mapping with a diferents algorithms
     <td><img src="b1.jpg"></td>
     <td><img src="b2.jpg"></td>
   </tr>
+    <tr>
+    <td><img src="c0.jpg"></td>
+    <td><img src="c1.jpg"></td>
+    <td><img src="c2.jpg"></td>
+  </tr>
  </table>
  
  ### Results
@@ -81,6 +86,11 @@ High-dynamic-range tone mapping with a diferents algorithms
    <tr>
     <td><img src="ldr-DebevecB.jpg"></td>
     <td><img src="ldr-DragoB.jpg"></td>>
+  </tr>
+    </tr>
+   <tr>
+    <td><img src="ldr-DebevecC.jpg"></td>
+    <td><img src="ldr-DragoC.jpg"></td>>
   </tr>
     <td>gama=4.5</td>
     <td>gama=2, saturation=0.7, bias=0.85</td>

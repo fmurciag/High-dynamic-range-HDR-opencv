@@ -8,7 +8,7 @@ def readImagesAndTimes():
   
   times = np.array([ 1/1000,1/30, 1/8], dtype=np.float32)
   
-  imgNames = ['a0.jpg', 'a1.jpg', 'a2.jpg']
+  imgNames = ['c0.jpg', 'c1.jpg', 'c2.jpg']
 
   images = []
   for filename in imgNames:
@@ -47,7 +47,7 @@ if __name__ == '__main__':
   tonemapDrago = cv2.createTonemapDrago(2, 0.7,0.85)
   ldrDrago = tonemapDrago.process(hdrDebevec)
   ldrDrago = 3 * ldrDrago
-  cv2.imwrite("ldr-Drago.jpg", ldrDrago * 255)
+  cv2.imwrite("ldr-DragoC.jpg", ldrDrago * 255)
   print("saved ldr-Drago.jpg")
   
   
